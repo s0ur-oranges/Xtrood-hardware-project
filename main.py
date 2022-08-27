@@ -40,7 +40,7 @@ arr=np.array([text]).reshape(-1 , 1)
 if (st.sidebar.button('Enter')):
     progressbar()
     
-    if nozzle<1.5 or nozzle>3.5:
+    if text<1.5 or text>3.5:
         st.write("Please enter a value between 2 and 3")
                  
     else:
