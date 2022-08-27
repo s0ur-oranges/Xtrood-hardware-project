@@ -41,7 +41,7 @@ if (st.sidebar.button('Enter')):
     progressbar()
     
     if(nozzle<1.5 or nozzle>3.5):
-        st.write("Please enter a value between 2 and 3)
+        st.write("Please enter a value between 2 and 3")
                  
     else:
         result=np.round(extrude(arr)[0] , 2)
